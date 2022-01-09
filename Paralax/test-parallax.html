@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<title>Test - Parallax</title>
+		<meta charset="utf-8"/>
+
+		<style type="text/css">
+
+			body, html{
+
+				margin: 0;
+				padding: 0;
+				font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+				height: 100%;
+				
+			}
+
+			/* --- MENU ---- */
+
+			#menu{
+
+				background: #0088cc;
+				background-attachment: fixed;
+				height: 120px;
+			}
+
+			.logo{
+
+				background: #0088cc;
+				width: 450px;
+				height: 120px;
+				float: left;
+			}
+
+			img{
+
+				margin-left: 13px;
+			
+			}
+
+			.link{
+
+				background: #0088cc;
+				width: 500px;
+				height: 100px;
+				font-size: 25px;
+				margin-left: 350px;
+				padding-top: 20px;
+				text-align: right;
+				color: #fff;
+				float: left;
+			}
+
+			.link a{
+
+				text-decoration: none;
+				color: #fff;
+			}
+
+			.link a:hover{
+
+				text-decoration: underline;
+				color: #000000;
+			}
+
+			/*--- Configurações para o efeito parallax ---*/
+
+			.caixa1, .caixa2, .caixa3 ,.caixa4{
+
+				position: relative;
+				height: 100%;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+			}
+
+			.caixa1{
+
+				background-image: url(imagens/imagem5.jpg);
+			}
+
+			.caixa2{
+
+				background-image: url(imagens/imagem6.jpg);
+			}
+
+			.caixa3{
+
+				background-image: url(imagens/imagem4.jpg);
+			}
+
+
+			h3{
+
+				font-size: 30px;
+				text-align: center;
+			}
+
+			p{
+
+				color: #666666;
+				margin-left: 20px;
+			}
+
+
+			.direitos{
+
+				padding-left: 550px;
+				font-weight: bold;
+			}
+
+			.titulo{
+
+				position: absolute;
+				left: 0%;
+				top: 50%;
+				background: #111;
+				color: #fff;
+				width: 100px;
+				letter-spacing: 1.5px;
+				font-size: 25px;
+				text-align: center;
+				padding: 10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		
+		<div id="menu">
+
+			<div class="logo">	
+				<img src="imagens/logo.png" width="120" height="120" title="Mountains Jorney">
+			</div>
+
+			<div class="link">
+
+				<a href="">Home</a> /
+				<a href="">Viagens</a> /
+				<a href="">Atendimento</a>
+			</div>
+
+		</div>
+
+
+		<div class="caixa1">
+			
+			<div class="titulo">
+				Brazil
+			</div>
+
+		</div>
+
+		<div class="conteudo">
+			
+			<h3>Mountais Journey</h3>
+
+			<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+
+			<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+
+		</div>
+
+		<div class="caixa2">
+			
+			<div class="titulo">
+				Miami
+			</div>
+		</div>
+
+		<div class="conteudo">
+			
+			<h3>Viagems com Pacotes exclusivos</h3>
+
+			<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+
+		</div>
+
+		<div class="caixa3">
+			
+			<div class="titulo">
+				Italy
+			</div>
+		</div>
+
+		<div class="conteudo">
+			
+			<h3>Viagem conosco</h3>
+
+			<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+
+			<span class="direitos">&copy; todos os direitos reservados</span>
+		</div>
+
+	</body>
+</html>

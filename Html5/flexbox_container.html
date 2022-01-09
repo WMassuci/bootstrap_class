@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	
+	<head>
+		
+		<title>Flexbox - container</title>
+		<meta charset="utf-8"/>
+
+		<style type="text/css">
+			
+			#conteudo{
+
+				background: #dcdcdc;
+				height: 600px;
+				/*display: -webkit-box;
+				display: -ms-flexbox;*/
+				display: flex;
+
+				/* ROW / ROW-REVERSE / COLUMN / COLUMN-REVERSE 
+				flex-direction: row;
+
+				/* NOWRAP / WRAP / WRAP-REVERSE 
+				flex-wrap: nowrap;
+
+				/*FLEX-START / FLEX-END / CENTER / SPACE-BETWENN / SPACE-AROUND  
+				justify-content: space-around;
+
+
+				/*STRECH / CENTER / FLEX-START / FLEX-END / BASELINE 
+				align-items: baseline; */
+			}
+
+
+			/*.ordem1{
+
+				order: 1;
+			}
+
+
+			.ordem2{
+
+				order: 2;
+			}
+
+
+			.ordem3{
+
+				order: 3;
+			}
+
+
+			.ordem4{
+
+				order: 4;
+			}
+
+			.ordem{
+
+				order: -1;
+			} */
+
+			.item{
+
+				/*width: 300px;*/
+				height: 100px;
+				margin: 10px;
+				background: white;
+				border: 1px solid gray;
+				margin: 10px;
+				flex-grow: 0;
+				flex-basis: 200px;
+				
+			}
+
+
+			.item1{
+
+				/*flex-shrink: 1;
+			
+			}
+
+			.item2{
+
+				flex-shrink: 2;
+				
+			}
+
+
+			.item3{
+
+				flex-shrink: 3;
+
+			} */
+
+		</style>
+
+	</head>
+
+	<body>
+		
+		<h1>Flexbox</h1>
+
+		<div id="conteudo">
+			
+			<div class="item">01</div>
+			<div class="item">02</div>
+			<div class="item">03</div>
+			<div class="item ">04</div>
+		</div>
+	</body>
+</html>

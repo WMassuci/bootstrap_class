@@ -1,0 +1,164 @@
+
+
+/** Conf gerais **/
+
+*{
+
+	margin: 0;
+	padding: 0;
+	font-family: Gill Sans, sans-serif;
+}
+
+/** Cabeçalho 1 **/
+
+#cab1{
+
+	background: url(../imagem/back2.png);
+	box-sizing: border-box;
+}
+
+.title{
+
+	box-sizing: border-box;
+	width: 150px;
+	margin: auto;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	color: white;
+
+}
+
+
+.wm{
+
+	color: #3399ff;
+}
+
+
+.title2{
+
+	box-sizing: border-box;
+	width: 300px;
+	margin: auto;
+	margin-top: 5px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+
+
+.title2 a{
+
+	text-decoration: none;
+	color: white;
+}
+
+.title2 a:hover{
+
+	color: #b3b3b3;
+}
+
+
+/** Cabeçalho 2 **/
+
+#cab2{
+
+	border: 1px solid #a6a6a6;
+	box-sizing: border-box;
+	font-size: 22px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+
+#cab2 a{
+
+	text-decoration: none;
+	font-weight: bold;
+	color: #666666;
+	padding: 20px;
+}
+
+#cab2 a:hover{
+
+	color: #3399ff;
+}
+
+
+
+/** Conteudo cadastro **/
+
+article{
+
+	box-sizing: border-box;
+	background: linear-gradient(to left ,#3399ff,#ffffff);
+	height: 520px;
+}
+
+
+.cadastro{
+
+	background: url(../imagem/back2.png);
+	box-sizing: border-box;
+	border-radius: 20px;
+	width: 350px;
+	margin: auto;
+	position: relative;
+	top: 100px;
+	color: white;
+}
+
+
+.cadastro h2{
+
+	text-align: center;
+	padding-top: 15px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	background: rgba(255,255,255,0.4);
+}
+
+.cadastro input{
+
+	padding: 9px;
+	width: 200px;
+	border-radius: 8px;
+	font-weight: bold;
+}
+
+
+form{
+
+	margin-top: 10px;
+	padding-left: 15px;
+}
+
+label{
+
+	font-weight: bold;
+}
+
+.b{
+
+	background: #29a329;
+	margin-left: 65px;
+	color: white;
+}
+
+.b:hover{
+
+	transform: translateY(-5px);
+	cursor: pointer;
+}
+
+/** Rodape **/
+
+footer{
+
+	background: url(../imagem/back2.png);
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+}

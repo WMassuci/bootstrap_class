@@ -1,0 +1,116 @@
+
+
+/*#caixa{
+
+	width: 300px;
+	height: 300px;
+	padding: 8px;
+	margin: 20px;
+	background: #009670;
+	box-shadow: 20px 200px 2px 80px rgba(0,0,0,0.6);
+}
+
+#caixa h1{
+
+	color: white;
+	/*text-shadow: 20px 20px black;*/
+	/*text-shadow: 20px 20px 5px rgba(0,0,0,0.6);
+} */
+
+
+/* #caixa{
+
+	width: 300px;
+	height: 300px;
+	/*background: url(../imagem/camera.png);*/
+	/*background: linear-gradient(80deg, blue, green, yellow);*/
+	/* background: url(../imagem/mundo.jpg); 
+} 
+
+/* #caixa{
+
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	padding: 50px;
+	margin: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/* -webkit-border-radius: 20px 90px;
+	-moz-border-radius: 20px 90px;
+	border-radius: 20px 90px; */
+
+
+
+
+/* ==== Animações ==== */
+
+/* @keyframes animacao{
+
+	from{
+
+		background: linear-gradient(to top, #f2f2f2,  #404040);
+		top: 0;
+
+	}
+
+	to{
+
+		top: 100px;
+		background: linear-gradient(to bottom, ##000000,  #f2f2f2);
+	}
+}
+
+
+#caixa{
+
+	width: 300px;
+	height: 300px;
+	border-radius: 300px;
+	padding: 40px;
+	position: relative;
+	box-sizing: border-box;
+	background: linear-gradient(to left, #f2f2f2, #404040);
+	animation-name: animacao;
+	animation-duration: 5s;
+	animation-iteration-count: 4;
+	animation-direction: alternate-reverse;
+} */
+
+
+
+/* === Transiçoes === */
+
+
+#caixa{
+
+	width: 300px;
+	height: 300px;
+	background: url(../imagem/imagem2.jpg);
+}
+
+#caixa:hover{
+
+	width: 400px;
+	background: url(../imagem/imagem4.jpg);
+	transition: all 4s;
+}
+
+
+#caixa2{
+
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	background: url(../imagem/taxi.jpg);
+}
+
+#caixa2:hover{
+
+	border-radius: 300px;
+	background: url(../imagem/imagem2.jpg);
+	transition: all 9s;
+	transition-duration: 8s;
+}
+

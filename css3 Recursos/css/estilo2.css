@@ -1,0 +1,219 @@
+
+/*-- Menu --*/
+
+*{
+
+	padding: 0;
+	margin: 0;
+	font-family: "Lato", sans-serif;
+}
+
+#Menu {
+
+	background: #0077b3;
+}
+
+.logo{
+
+	background: #0077b3;
+	width: 150px;
+	height: 101px;
+	padding-left: 20px;
+	float: left;
+	box-sizing: border-box;
+}
+
+
+.img-logo:hover{
+
+	cursor: pointer;
+	transform: translateY(-5px);
+}
+
+.link{
+
+	background: #0077b3;
+	width: 1193px;
+	height: 101px;
+	padding-left: 900px;
+	padding-top: 30px;
+	color: white;
+	float: right;
+	box-sizing: border-box;
+}
+
+.link a{
+
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	padding-left: 5px;
+
+}
+
+.link a:hover{
+
+	text-decoration: none;
+	color: white;
+	background: black;
+	padding: 5px;
+}
+
+
+/*--- Imagem principal---*/
+
+#img{
+
+	height: 500px;
+	background-image: url(../imagem/imagem4.jpg);
+	background-size: 100%;
+	clear: both;
+	
+}
+
+.pacote{
+
+	position: absolute;
+	top: 400px;
+	background: #111;
+	width: 240px;
+	padding: 10px;
+	color: white;
+	letter-spacing: 4px;
+}
+
+
+/*--- Comentarios de clientes ---*/
+
+#comentario{
+
+	padding-left: 30px;
+}
+
+h2{
+
+	padding-bottom: 5px;
+}
+
+.c1{
+
+	background: #ff751a;
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	padding: 20px;
+	text-align: justify;
+	border-radius: 30px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.c2{
+
+	background:  #009933;
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	padding: 20px;
+	text-align: justify;
+	border-radius: 30px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.c3{
+
+	background: #e60000;
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	padding: 20px;
+	text-align: justify;
+	border-radius: 30px;
+	box-sizing: border-box;
+	float: left;
+}
+
+
+.c4{
+
+	background: #333333;
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	padding: 20px;
+	text-align: justify;
+	margin-right: 25px;
+	border-radius: 30px;
+	box-sizing: border-box;
+	float: left;
+}
+
+
+/*-- Redes sociais --*/
+
+#rede{
+
+	width: 150px;
+	float: left;
+	margin-left: 10px;
+}
+
+.facebook{
+
+	background: #d9d9d9;
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+.YT{
+
+	background: #d9d9d9;
+	padding-left: 8px;
+	box-sizing: border-box;
+}
+
+.img-r:hover{
+
+	cursor: pointer;
+	transform: translateX(2px);
+}
+
+
+/*--- Mini - Noticias ---*/
+
+#noticias{
+
+	width: 1100px;
+	margin-right: 50px;
+	background: #d9d9d9;
+	box-sizing: border-box;
+	float: right;
+}
+
+a{
+
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+a:hover{
+
+	text-decoration: underline;
+}
+
+.redondo{
+
+	border-radius: 10px;
+}
+
+/*== Rodape ==*/
+
+#rodape{
+
+	background: #111;
+	clear:both;
+	color: white;
+	text-align: center;
+}

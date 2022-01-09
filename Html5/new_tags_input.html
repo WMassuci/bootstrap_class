@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	
+	<head>
+		
+		<title>Novas tags de input</title>
+		<meta charset="utf-8"/>
+
+		<!--Estilo customizado --->
+		<link rel="stylesheet" type="text/css" href="css/estilo2.css"/>
+
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js
+			"></script>
+		<![endif]-->
+
+	</head>
+
+
+	<body>
+		
+		<form>
+			
+			<!-- Nome -->	
+			<label for="Nome">Nome</label>
+			<input type="text" name="Nome" id="Nome" placeholder="your name" required autofocus>
+			<br><br>
+
+			<!-- Email-->
+			<label for="Email">Email</label>
+			<input type="email"  id="Email" placeholder="teste@gmail.com" required="required" autofocus>
+			<br><br>
+
+
+			<!--Numero-->
+			<label for="numero">numero</label>
+			<input type="number" id="numero" min="1" max="20" step="5">
+			<br><br>
+
+
+			<!-- URL -->
+			<label for="URL">URL</label>
+			<input type="url" id="URL" placeholder="ex : htpp://">
+			<br><br>
+
+
+			<!--Pesquisa-->
+			<label for="Pesquisa">Pesquisa</label>
+			<input type="search" id="Pesquisa" >
+			<br><br>
+
+			<!--Range-->
+			<label for="Range">Range</label>
+			<input type="Range" id="Range" min="1" max="4">
+			<br><br>
+
+			<!-- Data -->
+			<label for="Data">Data</label>
+			<input type="date" id="Data">
+			<br><br>
+
+			<!-- Cor -->
+			<label for="Cor">Cor</label>
+			<input type="month" id="Cor">
+
+			<input type="submit" name="" value="Enviar">
+		</form>
+	</body>
+</html>
